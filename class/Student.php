@@ -1,5 +1,5 @@
 <?php
-class Student{
+class Student01{
     public $studentID;
     public $studentName;
     public function printStudent(){
@@ -7,9 +7,9 @@ class Student{
         print "Name = " . $this -> studentName . "<br>";
     }
 }
-$std01 = new Student();
-$std02 = new Student();
-$std03 = new Student();
+$std01 = new Student01();
+$std02 = new Student01();
+$std03 = new Student01();
 $std01 -> studentID = "2017111111";
 $std02 -> studentID = "2017222222";
 $std03 -> studentID = "2017333333";
