@@ -13,7 +13,7 @@
                 <td width="140">장바구니</td>
             </tr>
             <?PHP
-            include ("./cart_products.inc");
+            include ("./cart_products.php");
             //while(list ($name, $price) = each ($fruit))
             foreach($fruit as $name => $price)           
             {
